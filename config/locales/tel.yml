@@ -1,0 +1,24 @@
+#tel.activerecord.errors.models.user.attributes.email.blank
+tel:
+  hello: "namaskaram %{user}"
+  activerecord:
+    models:
+      user: viniyogadarudu
+    attributes:
+      user:
+        email: mailu
+        password: passwordu
+        name: peru
+        password_confirmation: password ni check cheyyandi
+        locale: bhasha
+        remember_me: nannu gurtu petuko
+    errors:
+      messages:
+        blank: khali samdanam anumathi ledu
+        too_short: 6 sankya gala password ni rayandi
+        taken: e mailu imthakamunde vadabadinadi
+  minimum: "%{length} kanna akkuva sankya undali"
+  sign: registeru
+  forgot: password ni marchipoara?
+  welcome: swagatam %{mail}
+  signout: khali cheyyandi
