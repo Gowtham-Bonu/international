@@ -30,4 +30,9 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello %{user}"
+  minimum: "%{length} characters minimum"
+  sign: Sign up
+  forgot: Forgot your password?
+  welcome: Welcome %{mail}
+  signout: Sign out

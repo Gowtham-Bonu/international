@@ -1,0 +1,7 @@
+<% if user_signed_in? %> 
+ <div><%= t :welcome, mail: current_user.email %></div> 
+ <h1><%= t :hello, user: current_user.name %></h1>
+  <%= button_to t(:signout), destroy_user_session_path, method: :delete, class: 'btn btn-danger' %> 
+<% else %>
+  <%= button_to t(:sign), new_user_session_path %> 
+<% end %>
